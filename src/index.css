@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-background: #000000;
+  --color-surface: #1a1a2e;
+  --color-surface-hover: #16213e;
+  --color-brand: #6b63ff;
+  --color-brand-strong: #544bff;
+  --color-brand-glow: 0 0 32px rgba(107, 99, 255, 0.45);
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #9ca3af;
+  --color-text-muted: #6b7280;
+
+  --font-family-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  @apply bg-black text-white;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+}
+
+.glow-purple-lg {
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.6);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, rgb(147 51 234), rgb(139 92 246), rgb(79 70 229));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 50%, #4f46e5 100%);
+}
