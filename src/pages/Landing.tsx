@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Input } from '../components/atoms/Input';
 import { Button } from '../components/atoms/Button';
-import { Badge } from '../components/atoms/Badge';
 import { useAssessment } from '../context/AssessmentContext';
 import { GraduationCap, Sparkles } from 'lucide-react';
 
